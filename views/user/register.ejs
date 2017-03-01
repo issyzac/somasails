@@ -1,0 +1,77 @@
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="card">
+            <div class="card-content">
+                <h4 class="card-title">Stacked Form</h4>
+
+                <form method="post" action="create">
+
+                    <div class="col-md-12">
+
+                        <div class="form-group label-floating col-md-4">
+                            <label class="control-label">First Name</label>
+                            <input type="text" class="form-control" name="firstName">
+                        </div>
+
+                        <div class="form-group label-floating col-md-4">
+                            <label class="control-label">Last Name</label>
+                            <input type="text" class="form-control" name="lastName">
+                        </div>
+
+                        <div class="form-group label-floating col-md-4">
+                            <label class="control-label">Gender</label>
+                            <input type="text" class="form-control" name="gender">
+                        </div>
+
+                    </div>
+
+                    <br />
+
+                    <div class="col-md-12">
+
+                        <div class="form-group label-floating col-md-4">
+                            <label class="control-label">GPA</label>
+                            <input type="number" class="form-control" name="gpa">
+                        </div>
+
+                        <div class="form-group label-floating col-md-4">
+                            <label class="control-label">Level</label>
+                            <input type="text" class="form-control" name="level">
+                        </div>
+
+                        <div class="form-group label-floating col-md-4">
+                            <label class="control-label">Major</label>
+                            <input type="text" class="form-control" name="major">
+                        </div>
+
+                    </div>
+
+
+                    <br>
+
+                    <div class="col-md-12">
+                        <div class="form-group label-floating col-md-4">
+                            <label class="control-label">Phone</label>
+                            <input type="tel" class="form-control" name="phone">
+                        </div>
+
+                        <div class="form-group label-floating col-md-4">
+                            <label class="control-label">Email address</label>
+                            <input type="email" class="form-control" name="email">
+                        </div>
+
+                        <div class="form-group label-floating col-md-4">
+                            <label class="control-label">Need Or Merit</label>
+                            <input type="text" class="form-control" name="needormerit">
+                        </div>
+
+                    </div>
+
+                    <input type="hidden" name="_csrf" value="<%= _csrf %>">
+
+                    <button type="submit" class="btn btn-fill btn-default pull-right">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

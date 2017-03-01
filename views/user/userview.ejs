@@ -1,0 +1,10 @@
+<h1>User Creation Form SailJS</h1>
+<form action="create" method="POST" class="form-signin">
+    <h2>Create an account</h2>
+    <input type="text" placeholder="Your name Here" name="firstName">
+    <input type="text" placeholder="Your email Here" name="email">
+    <input type="float" placeholder="Your GPA Here" name="gpa">
+    <br />
+    <input type="submit" value="create an acount">
+    <input type="hidden" name="_csrf" value="<%= _csrf %>">
+</form>
